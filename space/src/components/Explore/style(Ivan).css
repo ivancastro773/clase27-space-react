@@ -1,0 +1,89 @@
+@font-face {
+  font-family: Space-xd;
+  src: url(../Forum-Regular.ttf);
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+/*   background-image: url(../assets/home/background-home-desktop.jpg); */
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+}
+.text-home {
+  width: 50%;
+  color: white;
+  margin-left: 175px;
+  text-align: justify;
+  
+}
+.text-home h1 {
+  font-size: 7rem;
+}
+.text-home p {
+  padding-right: 15rem;
+}
+.explore-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.circle-explore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border: 1px solid white;
+  background: white;
+  border-radius: 100%;
+  color: black;
+}
+/* SECTION COHETE */
+
+/* SECTION END */
+
+
+@media screen and (max-width: 480px) {
+  hr{
+    display: none;
+  }
+  #nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  #item{
+    display: none;
+    flex-direction: column;
+  }
+  .toggle {
+    display: block;
+  }
+  .container-home{
+      flex-direction: column;
+      align-items: center;
+  }
+  .text-home{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    line-height: 25px;
+    margin: 0;
+  }
+  h1{
+    text-align: center;
+    margin: 50px 0;
+    width: 100vw;
+  }
+.text-home p{
+  width: 360px;
+  padding: 0;
+}
+}
